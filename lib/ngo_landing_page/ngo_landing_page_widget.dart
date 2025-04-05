@@ -57,10 +57,10 @@ class _NgoLandingPageWidgetState extends State<NgoLandingPageWidget> {
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                 ),
-                child: SizedBox(
+                child: const SizedBox(
                   width: double.infinity,
                   height: double.infinity,
-                  child: const custom_widgets.NgoLandingPage(
+                  child: custom_widgets.NgoLandingPage(
                     width: double.infinity,
                     height: double.infinity,
                   ),

@@ -1,4 +1,0 @@
-#Thu Apr 03 21:04:30 IST 2025
-base.0=/Users/akshat/Desktop/hand2_hand/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

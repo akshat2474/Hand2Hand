@@ -59,10 +59,10 @@ class _VolunteerLandingPageWidgetState
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                 ),
-                child: SizedBox(
+                child: const SizedBox(
                   width: double.infinity,
                   height: double.infinity,
-                  child: const custom_widgets.VolunteerLandingPage(
+                  child:  custom_widgets.VolunteerLandingPage(
                     width: double.infinity,
                     height: double.infinity,
                   ),
