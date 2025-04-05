@@ -500,6 +500,19 @@ class _FoodDonationPageState extends State<FoodDonationPage> {
             'timestamp': FieldValue.serverTimestamp(),
             'status': 'pending',
           });
+          DocumentReference userRef =
+              FirebaseFirestore.instance.collection('users').doc(user.uid);
+          await FirebaseFirestore.instance.runTransaction((transaction) async {
+            DocumentSnapshot snapshot = await transaction.get(userRef);
+            if (!snapshot.exists) {
+              throw Exception("User does not exist!");
+            }
+            Map<String, dynamic> userData =
+                snapshot.data() as Map<String, dynamic>;
+            int currentMeals = userData['meals'] ?? 0;
+            transaction.update(userRef, {'meals': currentMeals + quantity});
+          });
+
 
           // Find nearest NGO and send notification
           await sendNotificationToNearestNGO(user, donationRef);
@@ -678,6 +691,20 @@ class _MiscellaneousDonationPageState extends State<MiscellaneousDonationPage> {
             'timestamp': FieldValue.serverTimestamp(),
             'status': 'pending',
           });
+          // Update the user's miscellaneous donations
+          DocumentReference userRef =
+          FirebaseFirestore.instance.collection('users').doc(user.uid);
+          await FirebaseFirestore.instance.runTransaction((transaction) async {
+          DocumentSnapshot snapshot = await transaction.get(userRef);
+          if (!snapshot.exists) {
+            throw Exception("User does not exist!");
+          }
+          Map<String, dynamic> userData = snapshot.data() as Map<String, dynamic>;
+          List<dynamic> currentMiscellaneous = userData['miscellaneous'] ?? [];
+          currentMiscellaneous.add('$selectedItem (${quantityController.text})');
+          transaction.update(userRef, {'miscellaneous': currentMiscellaneous});
+          });
+
 
           // Find nearest NGO and send notification
           await sendNotificationToNearestNGO(user, donationRef);
