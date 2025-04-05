@@ -53,10 +53,10 @@ class _SmartVolunteerNotifierWidgetState
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
             ),
-            child: SizedBox(
+            child: const SizedBox(
               width: double.infinity,
               height: double.infinity,
-              child: const custom_widgets.SmartVolunteerNotifier(
+              child: custom_widgets.SmartVolunteerNotifier(
                 width: double.infinity,
                 height: double.infinity,
               ),

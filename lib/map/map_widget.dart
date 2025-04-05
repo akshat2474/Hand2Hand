@@ -59,10 +59,10 @@ class _MapWidgetState extends State<MapWidget> {
                   decoration: BoxDecoration(
                     color: FlutterFlowTheme.of(context).secondaryBackground,
                   ),
-                  child: SizedBox(
+                  child: const SizedBox(
                     width: double.infinity,
                     height: double.infinity,
-                    child: const custom_widgets.GetAndShowMapWidget(
+                    child: custom_widgets.GetAndShowMapWidget(
                       width: double.infinity,
                       height: double.infinity,
                     ),

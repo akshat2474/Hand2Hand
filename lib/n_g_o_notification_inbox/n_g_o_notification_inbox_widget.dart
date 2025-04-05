@@ -53,10 +53,10 @@ class _NGONotificationInboxWidgetState
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
             ),
-            child: SizedBox(
+            child: const SizedBox(
               width: double.infinity,
               height: double.infinity,
-              child:  const custom_widgets.NGONotificationInbox(
+              child:  custom_widgets.NGONotificationInbox(
                 width: double.infinity,
                 height: double.infinity,
               ),

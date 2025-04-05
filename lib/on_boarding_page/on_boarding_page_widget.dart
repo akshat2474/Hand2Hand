@@ -51,10 +51,10 @@ class _OnBoardingPageWidgetState extends State<OnBoardingPageWidget> {
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
             ),
-            child: SizedBox(
+            child: const SizedBox(
               width: double.infinity,
               height: double.infinity,
-              child: const custom_widgets.OnboardingScreen(
+              child: custom_widgets.OnboardingScreen(
                 width: double.infinity,
                 height: double.infinity,
               ),
