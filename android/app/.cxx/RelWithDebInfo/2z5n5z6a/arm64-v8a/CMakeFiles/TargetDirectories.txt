@@ -1,0 +1,2 @@
+/Users/akshat/Desktop/Vivaan/android/app/.cxx/RelWithDebInfo/2z5n5z6a/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/akshat/Desktop/Vivaan/android/app/.cxx/RelWithDebInfo/2z5n5z6a/arm64-v8a/CMakeFiles/rebuild_cache.dir

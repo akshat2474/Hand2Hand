@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555592891737",
+    "project_id": "hand2-hand-4cpae4",
+    "storage_bucket": "hand2-hand-4cpae4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555592891737:android:59a6616782c02231666048",
+        "android_client_info": {
+          "package_name": "com.qwerty.hand2hand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555592891737-tgja4cnutv9anat81fvj5m5esh8fdcqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg9891Tu06lmpHGWjjRb3Qa88JZz5R0t8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555592891737-tgja4cnutv9anat81fvj5m5esh8fdcqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+/Users/akshat/Desktop/hand2_hand/android/app/.cxx/RelWithDebInfo/1w1r3h5p/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/akshat/Desktop/hand2_hand/android/app/.cxx/RelWithDebInfo/1w1r3h5p/armeabi-v7a/CMakeFiles/rebuild_cache.dir

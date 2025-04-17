@@ -1,0 +1,1 @@
+/Users/akshat/Desktop/hand2Hand/build/app/intermediates/cxx/RelWithDebInfo/6i313t1z/obj/arm64-v8a

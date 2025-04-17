@@ -1,0 +1,8 @@
+/build/
+/.ios/
+/android/app/build/
+/.flutter_build/
+/.dart_tool/
+/ios/Pods/
+lib/backend/gemini/gemini.dart
+lib/backend/firebase/firebase_config.dart
